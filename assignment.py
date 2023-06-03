@@ -26,7 +26,7 @@ menu = st.sidebar.selectbox("Menu",["Home","Plot"])
 # 若側邊欄選擇"Home"
 if menu == "Home":
     
-    st.title("我的第一個Streamlit Web App")
+    st.title(f"{NAME}的第一個Streamlit Web App")
     # 介面分三欄位呈現
     col1, col2, col3 = st.columns(3)
     with col1: 
