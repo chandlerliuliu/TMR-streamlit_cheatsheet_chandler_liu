@@ -3,11 +3,13 @@ import pandas as pd
 import numpy as np 
 import plotly.express as px 
 
+NAME = "Chandler"
+
 #%%
 # 設定介面顯示
 st.set_page_config(
     # 網頁標題
-    page_title="我的第一個Streamlit Web App",
+    page_title= f"{NAME}的第一個Streamlit Web App",
     # 網頁圖標
     page_icon="🌐", # st.image / random / emoji ("🐧" or ":penguin:")
     # 網頁介面的佈局寬度
